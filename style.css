@@ -1,0 +1,62 @@
+@charset "UTF-8";
+body {
+  font-family: "Poppins", sans-serif !important;
+  color: #4d0333 !important;
+  background-image: url("multimedia/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+h1 {
+  color: #6b0447;
+  font-weight: bold; }
+
+h2, h3 {
+  color: #b01279; }
+
+table, th {
+  color: #4d0333 !important; }
+
+img {
+  transition: transform .2s; }
+  img:hover {
+    transform: scale(1.02); }
+
+/*está para que el footer no tape el último contenido*/
+#cont {
+  margin-bottom: 2.5rem;
+  text-align: justify; }
+
+/*detalles del efecto que hace el subrayado animado en hover*/
+.menu {
+  background-image: linear-gradient(0deg, #e39fd5 25%, #b01279 100%);
+  color: #6b0447 !important; }
+  .menu__a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    position: relative; }
+    .menu__a:after {
+      content: "";
+      display: block;
+      height: 2px;
+      left: 50%;
+      position: absolute;
+      background: #6b0447;
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      width: 0; }
+    .menu__a.active, .menu__a:hover {
+      color: #fad7f3 !important; }
+    .menu__a:hover:after {
+      width: 100%;
+      left: 0; }
+
+.pie {
+  background-image: linear-gradient(0deg, #e39fd5 25%, #b01279 100%); }
+  .pie__a {
+    color: #4d0333; }
+    .pie__a:hover, .pie__a.active {
+      color: #fad7f3; }
+
+/*está para que todas las img de la pagina "actualidad" queden alineadas*/
+.img-thumbnail {
+  height: 200px; }
