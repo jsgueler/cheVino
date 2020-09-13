@@ -1,12 +1,11 @@
 @charset "UTF-8";
 body {
-  font-family: "Poppins", sans-serif !important;
-  color: #4d0333 !important;
+  font-family: 'Poppins', sans-serif;
+  color: #4d0333;
   background-image: url("multimedia/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: : 1em;
-  margin-left: 1em;}
+  background-attachment: fixed; }
 
 h1 {
   color: #6b0447;
@@ -31,7 +30,7 @@ img {
 /*detalles del efecto que hace el subrayado animado en hover*/
 .menu {
   background-image: linear-gradient(0deg, #e39fd5 25%, #b01279 100%);
-  color: #6b0447 !important; }
+  color: #6b0447; }
   .menu__a {
     margin-left: 10px;
     margin-right: 10px;
@@ -56,9 +55,26 @@ img {
   background-image: linear-gradient(0deg, #e39fd5 25%, #b01279 100%); }
   .pie__a {
     color: #4d0333; }
-    .pie__a:hover, .pie__a.active {
+    .pie__a.active, .pie__a:hover {
       color: #fad7f3; }
+
+.botonera {
+  color: #6b0447;
+  box-shadow: none; }
+  .botonera.active, .botonera:hover {
+    color: #b01279;
+    box-shadow: none; }
 
 /*está para que todas las img de la pagina "actualidad" queden alineadas*/
 .img-thumbnail {
   height: 200px; }
+
+.card-img-top {
+  width: 104px;
+  margin: auto; }
+
+.fa {
+  color: #fad7f3; }
+
+.checked {
+  color: #4d0333; }

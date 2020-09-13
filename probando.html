@@ -1,75 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="cheVino | Probando: Encontrá reseñas de vinos y valoraciones de la comunidad. Descubrí cuáles son los más populares y los mejor puntuados">
+	<meta name="description"
+		content="cheVino | Probando: Encontrá reseñas de vinos y valoraciones de la comunidad. Descubrí cuáles son los más populares y los mejor puntuados">
 	<meta name="keywords" content="VINOS, PROBAR VINO, RESEÑA VINO, VINOS OPINIONES, VINOS POPULARES, MEJORES VINOS">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>cheVino | Probando</title>
 </head>
+
 <body>
-	<div id="cont" class="container-fluid">
-		<nav class="menu navbar sticky-top navbar-expand-sm navbar-light">
-			<a class="menu__a navbar-brand" href="index.html"><img src="multimedia/images/logo.png" class="d-inline-block align-top" alt="Logo cheVino" width="158px" height="40px"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="menu navbar sticky-top navbar-expand-sm navbar-light">
+		<a class="menu__a navbar-brand" href="index.html"><img src="multimedia/images/logo.png"
+				class="d-inline-block align-top" alt="Logo cheVino" width="158px" height="40px"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+			aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
-				</button>
-			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-				<div class="navbar-nav mr-auto ml-auto text-center">
-					<a class="menu__a nav-item nav-link" href="vinos101.html">Vinos 101</a>
-					<a class="menu__a nav-item nav-link" href="actualidad.html">Actualidad</a>
-					<a class="menu__a nav-item active nav-link" href="#">Probando</a>
-					<a class="menu__a nav-item nav-link" href="turismo.html">Turismo</a>	
+		</button>
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+			<div class="navbar-nav mr-auto ml-auto text-center">
+				<a class="menu__a nav-item nav-link" href="vinos101.html">Vinos 101</a>
+				<a class="menu__a nav-item nav-link" href="actualidad.html">Actualidad</a>
+				<a class="menu__a nav-item active nav-link" href="#">Probando</a>
+				<a class="menu__a nav-item nav-link" href="turismo.html">Turismo</a>
+			</div>
+		</div>
+	</nav>
+	<div id="cont" class="container-fluid">
+
+		<div class="container wow animate__animated animate__fadeInUp">
+			<h1>PROBANDO</h1>
+			<strong>Acá vas a encontrar una selección de reseñas de vinos a medida que los voy probando. Desde los más
+				conocidos, hasta algunos descubrimientos que te permitirán descubrir nuevos sabores. ¿Tenés alguno para
+				recomendarme? <a href="contacto.html">¡Contame!</a></strong><br><br>
+			<div class="row row-cols-1 row-cols-md-3">
+				<div class="col mb-4">
+					<div class="card">
+						<div class="card-header">
+							<h3>Decero Petit Verdot</h3>
+						</div>
+						<img class="card-img-top" src="multimedia/images/decero-verdot.jpg"
+							alt="Finca Decero Petit Verdot">
+						<div class="card-body">
+							<p class="card-text">Un varietal poco conocido pero que sorprende a los amantes de un vino
+								fuerte, y una
+								bodega de excelencia con renombre internacional</p>
+							<p class="card-text">Principales notas de sabor:
+							<ul>
+								<li>Arándano</li>
+								<li>Roble</li>
+								<li>Cuero</li>
+							</ul>
+							</p>
+							Puntaje: <span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4">
+					<div class="card">
+						<div class="card-header">
+							<h3>Callia Magna Malbec</h3>
+						</div>
+						<img class="card-img-top" src="multimedia/images/callia-magna.jpg" alt="Callia Magna Malbec">
+						<div class="card-body">
+							<p class="card-text">Con una asombrosa relación precio calidad, este Malbec que podés
+								encontrar fácilmente en cualquier supermercado te va a hacer lucirte en cualquier
+								evento. </p>
+							<p class="card-text">Principales notas de sabor:
+							<ul>
+								<li>Vainilla</li>
+								<li>Roble</li>
+								<li>Chocolate</li>
+							</ul>
+							</p>
+							Puntaje: <span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4">
+					<div class="card">
+						<div class="card-header">
+							<h3>Killka Chardonnay</h3>
+						</div>
+						<img class="card-img-top" src="multimedia/images/killka-chardonnay.png" alt="Killka Chardonnay">
+						<div class="card-body">
+							<p class="card-text">Un vino blanco muy fácil de tomar, que puede acompañarte en el día a
+								día gracias a su frescura y gran relación precio calidad. Aromático, dulce y cítrico.
+							</p>
+							<p class="card-text">Principales notas de sabor:
+							<ul>
+								<li>Roble</li>
+								<li>Cítrico</li>
+								<li>Manzana</li>
+							</ul>
+							</p>
+							Puntaje: <span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+						</div>
+					</div>
 				</div>
 			</div>
-		</nav>		
-		<h1>PROBANDO</h1>
-			<div class="container wow animate__animated animate__fadeInUp">
-				<div class="row">
-					<div class="col-12 col-md-4">
-						<h3>Entrada</h3>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolore, reprehenderit suscipit iure illum neque vero ratione consectetur accusantium voluptatem veniam iusto fugit ea sed cupiditate fugiat vitae eos distinctio?
-					</div>
-					<div class="col-12 col-md-4">
-						<h3>Entrada</h3>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolore, reprehenderit suscipit iure illum neque vero ratione consectetur accusantium voluptatem veniam iusto fugit ea sed cupiditate fugiat vitae eos distinctio?
-					</div>
-					<div class="col-12 col-md-4">
-						<h3>Entrada</h3>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolore, reprehenderit suscipit iure illum neque vero ratione consectetur accusantium voluptatem veniam iusto fugit ea sed cupiditate fugiat vitae eos distinctio?
+
+			<div class="row row-cols-1 row-cols-md-3">
+				<div class="col mb-4">
+					<div class="card">
+						<div class="card-header">
+							<h3>Abremundos Octava Alta</h3>
+						</div>
+						<img class="card-img-top" src="multimedia/images/abremundos-octava-alta.jpg"
+							alt="Abremundos Octava Alta">
+						<div class="card-body">
+							<p class="card-text">Creado por dos músicos y apasionados del vino -Pelleriti y Aznar- este
+								red blend con 80% Malbec y 20% Cabernet Franc te va a encantar por su intensidad y
+								particular sabor</p>
+							<p class="card-text">Principales notas de sabor:
+							<ul>
+								<li>Mora</li>
+								<li>Roble</li>
+								<li>Pimienta</li>
+							</ul>
+							</p>
+							Puntaje: <span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-12 col-md-4">
-						<h3>Entrada</h3>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolore, reprehenderit suscipit iure illum neque vero ratione consectetur accusantium voluptatem veniam iusto fugit ea sed cupiditate fugiat vitae eos distinctio?
+				<div class="col mb-4">
+					<div class="card">
+						<div class="card-header">
+							<h3>Diamandes L'argentin de Malartic</h3>
+						</div>
+						<img class="card-img-top" src="multimedia/images/diamandes-largentin.jpg"
+							alt="Diamandes L'argentin de Malartic">
+						<div class="card-body">
+							<p class="card-text">De la reconocida bodega Diamandes, L’Argentin de Malartic es un vino
+								rosado que se destaca por su frescura e intensidad. Resulta ideal como aperitivo,
+								especialmente en el verano. Un rosé que no podés dejar de probar.</p>
+							<p class="card-text">Principales notas de sabor:
+							<ul>
+								<li>Cereza</li>
+								<li>Cuero</li>
+								<li>Roble</li>
+							</ul>
+							</p>
+							Puntaje: <span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+						</div>
 					</div>
-					<div class="col-12 col-md-4">
-						<h3>Entrada</h3>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolore, reprehenderit suscipit iure illum neque vero ratione consectetur accusantium voluptatem veniam iusto fugit ea sed cupiditate fugiat vitae eos distinctio?
-					</div>
-					<div class="col-12 col-md-4">
-						<h3>Entrada</h3>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolore, reprehenderit suscipit iure illum neque vero ratione consectetur accusantium voluptatem veniam iusto fugit ea sed cupiditate fugiat vitae eos distinctio?
-					</div>			
 				</div>
-			</div>			
-		<footer>
-			<nav class="pie navbar fixed-bottom justify-content-center">
-				Acerca de | <a class="pie__a" href="contacto.html">Contacto</a> | Suscribite
-			</nav>
-		</footer>
-	</div>
-	<script src="https://cdn.boomcdn.com/libs/wow-js/1.3.0/wow.js"></script>
-	<script>
-    	new WOW().init();
-    </script>
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+				<div class="col mb-4">
+					<div class="card">
+						<div class="card-header">
+							<h3>Nieto Senetiner Malbec</h3>
+						</div>
+						<img class="card-img-top" src="multimedia/images/nieto-senetiner-malbec.jpeg"
+							alt="Nieto Senetiner Malbec">
+						<div class="card-body">
+							<p class="card-text">Si te gustan los vinos intensos, este malbec de la gama media de la
+								Bodega Senetiner te va a resultar ideal para tener en tu mesa a diario. Con una buena
+								relación precio calidad, destaca por ser un vino joven y fresco, que no se queda atrás
+								en sabor.
+							</p>
+							<p class="card-text">Principales notas de sabor:
+							<ul>
+								<li>Vainilla</li>
+								<li>Mora</li>
+								<li>Cereza</li>
+							</ul>
+							</p>
+							Puntaje: <span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer>
+				<nav class="pie navbar fixed-bottom justify-content-center">
+					Acerca de | <a class="pie__a" href="contacto.html">Contacto</a> | Suscribite
+				</nav>
+			</footer>
+		</div>
+		<script src="https://cdn.boomcdn.com/libs/wow-js/1.3.0/wow.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+			crossorigin="anonymous"></script>
 </body>
+
 </html>
